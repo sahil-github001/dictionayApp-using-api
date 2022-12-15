@@ -27,7 +27,6 @@ btn.addEventListener('click', () => {
     .catch((err) => {
         result.innerHTML = `<h1 style="color:red;">no result found</h1>`
     })
- 
 })
 
 function play(){

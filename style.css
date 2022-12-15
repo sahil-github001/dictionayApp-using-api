@@ -5,18 +5,23 @@
 }
 body {
 	font-family: sans-serif;
-	background-color: #c8a6a6;
-  
+	background-color: #1d1c2b;
 }
 .container{
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
+    padding-top: 100px;
+}
+.container h1{
+    color: white;
+    
 }
 .search-body{
+    margin-top: 20px;
     background-color: white;
     width: 400px;
     height: auto;
@@ -24,6 +29,7 @@ body {
     padding: 30px 40px;
     padding-top: 40px;
     border-radius: 5px;
+    padding-bottom: 100px;
 }
 .search-body input{
     width: 70%;
@@ -33,6 +39,8 @@ body {
     border-bottom: 1px solid rgb(207, 194, 194);
     display: inline-block;
     margin-right: 20px;
+    font-weight: 500;
+    font-size: 20px;
 }
 .search-body button{
     margin-top: 4px;
